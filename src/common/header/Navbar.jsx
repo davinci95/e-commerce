@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="navlink">
                   <ul className={mobileMenu ? "nav-links-mobile" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
                   <li>
-                <Link to='/e-commerce'>home</Link>
+                <Link to='/e-commerce/'>home</Link>
               </li>
               <li>
                 <Link to='/pages'>pages</Link>
