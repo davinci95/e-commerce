@@ -60,7 +60,7 @@ const App = () => {
          <Header cartItem={cartItem} />
          <Routes>
             <Route
-               path="/"
+               path="/e-commerce"
                element={
                   <Pages
                      productItems={productItems}
