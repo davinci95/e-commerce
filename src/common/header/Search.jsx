@@ -28,7 +28,7 @@ const Search = ({ cartItem }) => {
 
             <i className="fa fa-user icon-circle"></i>
             <div className="cart">
-              <Link to="/cart">
+              <Link to="/e-commerce/cart">
               <i className="fa fa-shopping-bag icon-circle"></i>
               <span>{cartItem.length === 0 ? "" : cartItem.length}</span>
               </Link>
