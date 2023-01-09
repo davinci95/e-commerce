@@ -56,7 +56,7 @@ const App = () => {
       }
    };
    return (
-      <Router basename="/e-commerce">
+      <Router>
          <Header cartItem={cartItem} />
          <Routes>
             <Route
@@ -70,7 +70,7 @@ const App = () => {
                }
             />
             <Route
-               path="/cart"
+               path="/e-commerce/cart"
                element={
                   <Cart
                      cartItem={cartItem}
