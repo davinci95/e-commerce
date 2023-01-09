@@ -70,7 +70,7 @@ const App = () => {
                }
             />
             <Route
-               path="/e-commerce/cart"
+               path="/cart"
                element={
                   <Cart
                      cartItem={cartItem}
